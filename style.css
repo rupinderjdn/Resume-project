@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #body-header {
     /* important to provide height cuz default is zero */
@@ -52,7 +53,6 @@ body {
 }
 #my-name{
     font-size: 5rem;
-    letter-spacing: 0.05em;
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
@@ -66,4 +66,25 @@ body {
     border-bottom: 0px;
     box-shadow: 0px 0px 6px 4px rgba(0,0,0,0.5);
     /* horizontal offset vertical offset blurr spread and color */
+}
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#my-image{
+    height: 14rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+}
+#about p{
+    margin: 3rem 3rem 3rem 3rem;
+    font-size: x-large;
 }
